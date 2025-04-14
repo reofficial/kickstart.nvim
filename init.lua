@@ -874,6 +874,12 @@ require('lazy').setup({
     dependencies = { 'nvim-tree/nvim-web-devicons' },
   },
   {
+    'nvim-treesitter/nvim-treesitter-context',
+  },
+  {
+    'RRethy/vim-illuminate',
+  },
+  {
     'rmagatti/auto-session',
     config = function()
       require('auto-session').setup {
